@@ -58,6 +58,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC1063852842ADD800875AD6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0677328411DEA00A4D555 /* RecentTransactionList.swift */,
+				BC448F5A2832CC410040DA09 /* ContentView.swift */,
+				BC10CC7C2837DB27002B8A58 /* TransactionRow.swift */,
+				BC10637B284288DC00875AD6 /* TransactionList.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BC1063862842AE3000875AD6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BCF067712841194900A4D555 /* TransactionListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		BC448F4C2832CC410040DA09 = {
 			isa = PBXGroup;
 			children = (
@@ -77,13 +96,11 @@
 		BC448F572832CC410040DA09 /* ExpenseTracker */ = {
 			isa = PBXGroup;
 			children = (
+				BC1063862842AE3000875AD6 /* ViewModels */,
 				BC448F6B2832DC050040DA09 /* Models */,
 				BC448F682832D2430040DA09 /* Extensions */,
 				BC448F582832CC410040DA09 /* ExpenseTrackerApp.swift */,
-				BCF0677328411DEA00A4D555 /* RecentTransactionList.swift */,
-				BC10637B284288DC00875AD6 /* TransactionList.swift */,
-				BC448F5A2832CC410040DA09 /* ContentView.swift */,
-				BC10CC7C2837DB27002B8A58 /* TransactionRow.swift */,
+				BC1063852842ADD800875AD6 /* Views */,
 				BC448F5C2832CC410040DA09 /* Assets.xcassets */,
 				BC448F5E2832CC410040DA09 /* Preview Content */,
 			);
@@ -114,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				BC448F692832D2920040DA09 /* TransactionModel.swift */,
-				BCF067712841194900A4D555 /* TransactionListViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
